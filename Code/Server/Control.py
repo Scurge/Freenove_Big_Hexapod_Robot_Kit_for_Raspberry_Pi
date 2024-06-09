@@ -34,6 +34,7 @@ class Control:
         self.order=['','','','','','']
         self.calibration()
         self.setLegAngle()
+        self.keep_running = True  # Add a flag to control the loop
         self.Thread_conditiona=threading.Thread(target=self.condition)
     def readFromTxt(self,filename):
         file1 = open(filename + ".txt", "r")
@@ -151,7 +152,8 @@ class Control:
             flag=False
         return flag
     def condition(self):
-        while True:
+        while self.keep_running:
+        #while True:
             if (time.time()-self.timeout)>10 and  self.timeout!=0 and self.order[0]=='':
                 self.timeout=time.time()
                 self.relax(True)
@@ -236,6 +238,12 @@ class Control:
                     elif self.order[1]=="save":
                         self.saveToTxt(self.calibration_leg_point,'point')
                 self.order=['','','','','',''] 
+
+    def stop(self):
+        self.keep_running = False
+        print("Move Joystick to stop.")
+
+
     def relax(self,flag):
         if flag:
             self.servo.relax()
@@ -457,3 +465,4 @@ if __name__=='__main__':
             
 
   
+
