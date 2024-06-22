@@ -1,3 +1,25 @@
+
+## Control Via PS4 Bluetooth controller
+
+You'll need my Control.py (I added a stop function to allow cntrl+c stopping)
+https://github.com/.../blob/master/Code/Server/Control.py
+
+And then the ps4 controller code is here:
+https://github.com/.../blob/master/Code/Server/ps4Control.py
+
+You'll also need the ps4Controller library here:
+https://github.com/ArturSpirin/pyPS4Controller.git
+
+See this tutorial to connect it via command line:
+https://youtu.be/CeyGP3_kKZI?si=MzJ4OAGRJ_EFc-Oj
+
+Theres also the code I klugded to use the USB Thrustmaster Hotas to control it
+https://github.com/.../blob/master/Code/Server/localJoy.py
+
+it requires the inputs library
+https://pypi.org/project/inputs/
+
+
 ## Freenove Big Hexapod Robot Kit for Raspberry Pi
 
 > A Hexapod Robot Kit for Raspberry Pi.
