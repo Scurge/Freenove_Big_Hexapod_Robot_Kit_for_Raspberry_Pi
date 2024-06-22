@@ -2,10 +2,10 @@
 ## Control Via PS4 Bluetooth controller
 
 You'll need my Control.py (I added a stop function to allow cntrl+c stopping)
-[https://github.com/.../blob/master/Code/Server/Control.py](https://github.com/Scurge/Freenove_Big_Hexapod_Robot_Kit_for_Raspberry_Pi/blob/master/Code/Server/Control.py)
+https://github.com/Scurge/Freenove_Big_Hexapod_Robot_Kit_for_Raspberry_Pi/blob/master/Code/Server/Control.py
 
 And then the ps4 controller code is here:
-[https://github.com/.../blob/master/Code/Server/ps4Control.py](https://github.com/Scurge/Freenove_Big_Hexapod_Robot_Kit_for_Raspberry_Pi/blob/master/Code/Server/ps4Control.py)
+https://github.com/Scurge/Freenove_Big_Hexapod_Robot_Kit_for_Raspberry_Pi/blob/master/Code/Server/ps4Control.py
 
 You'll also need the ps4Controller library here:
 https://github.com/ArturSpirin/pyPS4Controller.git
@@ -17,7 +17,7 @@ Left stick controls the X and Y movement, the x axis of the right stick controls
 Triangle increases speed, X button lowers it.
 
 Theres also the code I klugded to use the USB Thrustmaster Hotas to control it
-[https://github.com/.../blob/master/Code/Server/localJoy.py](https://github.com/Scurge/Freenove_Big_Hexapod_Robot_Kit_for_Raspberry_Pi/blob/master/Code/Server/localJoy.py)
+https://github.com/Scurge/Freenove_Big_Hexapod_Robot_Kit_for_Raspberry_Pi/blob/master/Code/Server/localJoy.py
 
 it requires the inputs library
 https://pypi.org/project/inputs/
