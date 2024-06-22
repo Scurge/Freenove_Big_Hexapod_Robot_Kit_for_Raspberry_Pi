@@ -103,7 +103,7 @@ class MyController(Controller):
     def on_L2_press(self, value):
         pass
 
-    def on_L2_release(self, value):
+    def on_L2_release(self):
         pass
 
     def on_x_release(self):
