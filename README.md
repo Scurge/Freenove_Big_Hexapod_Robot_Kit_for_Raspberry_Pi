@@ -13,6 +13,9 @@ https://github.com/ArturSpirin/pyPS4Controller.git
 See this tutorial to connect it via command line:
 https://youtu.be/CeyGP3_kKZI?si=MzJ4OAGRJ_EFc-Oj
 
+Left stick controls the X and Y movement, the x axis of the right stick controls rotation.
+Triangle increases speed, X button lowers it.
+
 Theres also the code I klugded to use the USB Thrustmaster Hotas to control it
 https://github.com/.../blob/master/Code/Server/localJoy.py
 
